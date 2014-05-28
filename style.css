@@ -1,0 +1,62 @@
+body {
+	background: aqua;
+}
+#rotator {
+	background: #fff;
+	width: 30em;
+	height: 30em;
+	position: absolute;
+	left: 33%;
+	top: 8%;
+	/* margin: -37em 0 0 -37em;
+	*/
+	border-radius: 20em;
+}
+ul {
+	list-style: none;
+}
+.image1 {
+	background-position: 0% 0%;
+	cursor: pointer;
+}
+.image2 {
+	background-position: 0% 50%;
+	cursor: pointer;
+}
+.image3 {
+	background-position: 25% 100%;
+	cursor: pointer;
+}
+.image4 {
+	background-position: 0% 100%;
+	cursor: pointer;
+}
+.image5 {
+	background-position: 75% 0%;
+	cursor: pointer;
+}
+.image6 {
+	background-position: 25% 0%;
+	cursor: pointer;
+}
+.buttons li {
+	margin: -4em 0 0 -4em;
+	width: 3em;
+	height: 3em;
+	background-image: url('../images/icons.png');
+	background-size: 500%;
+	position: absolute;
+	left: 61%;
+	top: 50%;
+	z-index: 2;
+	-webkit-transform-origin: 0em -6em;
+	-moz-transform-origin: 0em -6em;
+	-ms-transform-origin: 0em -6em;
+	-o-transform-origin: 0em -6em;
+	transform-origin: 0em -6em;
+	-webkit-transition: -webkit-transform 0.5s ease-in-out;
+	-moz-transition: -moz-transform 0.5s ease-in-out;
+	-ms-transition: -ms-transform 0.5s ease-in-out;
+	-o-transition: -o-transform 0.5s ease-in-out;
+	transition: transform 0.5s ease-in-out;
+}
